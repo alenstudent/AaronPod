@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'AaronPod/Classes/**/*'
+  s.source_files = 'AaronPod/SwiftFiles/**/*'
   
   s.resource_bundles = {
     'AaronPod' => ['AaronPod/MediaResource/*.png']
