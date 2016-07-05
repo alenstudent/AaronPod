@@ -14,7 +14,7 @@
 		5C4386F2F3F710F217F2E929D069087D /* 300.png in Resources */ = {isa = PBXBuildFile; fileRef = 58278230B376144F258DA28E0313A369 /* 300.png */; };
 		6052A2A7A160975471BA7C439FE9EDE6 /* Pods-AaronPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4605E56C641814FFA053E82F789DE89C /* Pods-AaronPod_Example-dummy.m */; };
 		72BA0DE834AF3049DF0495031C14BC91 /* Pods-AaronPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E63091D0D98691C7492AE4F162F6A61 /* Pods-AaronPod_Tests-dummy.m */; };
-		737AD6A5AF2F94CFB8A85D620BBFCD3E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5039C22E606826FA3BCD5CC0E66166 /* ReplaceMe.swift */; };
+		737AD6A5AF2F94CFB8A85D620BBFCD3E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0045E0CC6E0D2BC231D6FE1F8038AA /* ReplaceMe.swift */; };
 		A3CBE200574F3DE589C388A2B037B9EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		ADC7AB20D729ACF4203BCDF4902EC61F /* Pods-AaronPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DF8D4AEB96830183E89BB4600911F35 /* Pods-AaronPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BAA7BFC14643A07297B512EAA02EB76E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
@@ -41,11 +41,11 @@
 
 /* Begin PBXFileReference section */
 		0670FD51A0E0BFA67998D1E0C90F6E77 /* Pods-AaronPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AaronPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0B0045E0CC6E0D2BC231D6FE1F8038AA /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		0DF8D4AEB96830183E89BB4600911F35 /* Pods-AaronPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AaronPod_Tests-umbrella.h"; sourceTree = "<group>"; };
 		1723AEB02334004F43615FB28E496FBA /* AaronPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AaronPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1955B8DAA074A8315E3934DB74523411 /* AaronPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AaronPod.xcconfig; sourceTree = "<group>"; };
 		22F7D1B8FCE273A813CA104A1DDFE7A8 /* Pods-AaronPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AaronPod_Example.modulemap"; sourceTree = "<group>"; };
-		2B5039C22E606826FA3BCD5CC0E66166 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		368CE2BB18E1276BED6B4E8F8E14EC61 /* Pods-AaronPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AaronPod_Example-umbrella.h"; sourceTree = "<group>"; };
 		45F9AE47A93119A508133C32BA9AEB32 /* Pods-AaronPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AaronPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4605E56C641814FFA053E82F789DE89C /* Pods-AaronPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AaronPod_Example-dummy.m"; sourceTree = "<group>"; };
@@ -113,14 +113,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		027B67124ADC7D37102B36BA5DAD68CE /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				2B5039C22E606826FA3BCD5CC0E66166 /* ReplaceMe.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		0A4710D3E15FCCABB0CF237E5FF50822 /* AaronPod */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +155,14 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		525C8B20DE9AA93AF6885BDB36807FCB /* SwiftFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0B0045E0CC6E0D2BC231D6FE1F8038AA /* ReplaceMe.swift */,
+			);
+			path = SwiftFiles;
+			sourceTree = "<group>";
+		};
 		6087E1983D8392EFA3D07939F702EA7C /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,10 +185,18 @@
 			);
 			sourceTree = "<group>";
 		};
+		7F16DCD7B128A4487CF903330DA0E71B /* AaronPod */ = {
+			isa = PBXGroup;
+			children = (
+				525C8B20DE9AA93AF6885BDB36807FCB /* SwiftFiles */,
+			);
+			path = AaronPod;
+			sourceTree = "<group>";
+		};
 		8ED7FF5C7C8757E605DCDAF122E2D142 /* AaronPod */ = {
 			isa = PBXGroup;
 			children = (
-				BB1AD793A67ED8A311568709D7E9FC4B /* AaronPod */,
+				7F16DCD7B128A4487CF903330DA0E71B /* AaronPod */,
 				D63711C586D12F0FF3638B796ADE42BF /* Resources */,
 				E546862B3A057F3814A7F6F129861A05 /* Support Files */,
 			);
@@ -203,14 +211,6 @@
 				BD910BE0C77E7ECC30979BCEFB1711B0 /* Pods-AaronPod_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		BB1AD793A67ED8A311568709D7E9FC4B /* AaronPod */ = {
-			isa = PBXGroup;
-			children = (
-				027B67124ADC7D37102B36BA5DAD68CE /* Classes */,
-			);
-			path = AaronPod;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
