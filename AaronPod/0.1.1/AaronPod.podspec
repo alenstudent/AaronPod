@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.source_files = 'AaronPod/Classes/**/*'
   
   s.resource_bundles = {
-    'AaronPod' => ['AaronPod/Assets/*.png']
+    'AaronPod' => ['AaronPod/MediaResource/*.png']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
