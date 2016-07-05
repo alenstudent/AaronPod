@@ -1,0 +1,6 @@
+framework module AaronPod {
+  umbrella header "AaronPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
