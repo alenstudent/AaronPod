@@ -20,7 +20,7 @@
   "source_files": "AaronPod/Classes/**/*",
   "resource_bundles": {
     "AaronPod": [
-      "AaronPod/Assets/*.png"
+      "AaronPod/MediaResource/*.png"
     ]
   }
 }

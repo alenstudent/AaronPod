@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		377416B9B763EBEBC61EDA8524F3EF6C /* AaronPod.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 925DE5E3E7B27BF092B8419F8C8688FC /* AaronPod.bundle */; };
-		507441A1009DD6AC4D5A5722CBD57125 /* 300@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CED33F3999C41508B841A338265CAEF9 /* 300@2x.png */; };
+		507441A1009DD6AC4D5A5722CBD57125 /* 300@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBC8B39EA2001B06A7423064871E6DAA /* 300@2x.png */; };
 		5089BAD646980CFA6ECEA036D4F0789B /* AaronPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A68FA6E3A987587CD0077504B0F392 /* AaronPod-dummy.m */; };
 		5391A05067858EB4D73D252E85B6D7E9 /* AaronPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF2496020E0A560BAFDBD1845BBA2783 /* AaronPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C4386F2F3F710F217F2E929D069087D /* 300.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BFFD403005F4D60281E06BB99847F9 /* 300.png */; };
+		5C4386F2F3F710F217F2E929D069087D /* 300.png in Resources */ = {isa = PBXBuildFile; fileRef = 58278230B376144F258DA28E0313A369 /* 300.png */; };
 		6052A2A7A160975471BA7C439FE9EDE6 /* Pods-AaronPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4605E56C641814FFA053E82F789DE89C /* Pods-AaronPod_Example-dummy.m */; };
 		72BA0DE834AF3049DF0495031C14BC91 /* Pods-AaronPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E63091D0D98691C7492AE4F162F6A61 /* Pods-AaronPod_Tests-dummy.m */; };
 		737AD6A5AF2F94CFB8A85D620BBFCD3E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5039C22E606826FA3BCD5CC0E66166 /* ReplaceMe.swift */; };
@@ -40,7 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04BFFD403005F4D60281E06BB99847F9 /* 300.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = 300.png; sourceTree = "<group>"; };
 		0670FD51A0E0BFA67998D1E0C90F6E77 /* Pods-AaronPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AaronPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0DF8D4AEB96830183E89BB4600911F35 /* Pods-AaronPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AaronPod_Tests-umbrella.h"; sourceTree = "<group>"; };
 		1723AEB02334004F43615FB28E496FBA /* AaronPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AaronPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +52,7 @@
 		48D99C4F8D490F81F4C26AEEB2625347 /* Pods-AaronPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AaronPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4E32B2B305F7DF06D47E650791EED1A9 /* AaronPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AaronPod.modulemap; sourceTree = "<group>"; };
 		56CAFD1202326EFA83A34C267D155DCD /* Pods-AaronPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AaronPod_Example.release.xcconfig"; sourceTree = "<group>"; };
+		58278230B376144F258DA28E0313A369 /* 300.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = 300.png; sourceTree = "<group>"; };
 		60A68FA6E3A987587CD0077504B0F392 /* AaronPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AaronPod-dummy.m"; sourceTree = "<group>"; };
 		614B71D1DFE3E54F5C988CAE4B848ED7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6899BB118853CB4E30CD6A3084303F97 /* Pods_AaronPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AaronPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,9 +66,9 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2F4C22027D50B3947D5CC6DDBA5A5DE /* Pods-AaronPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AaronPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A9AA8FC1EE15E4439915FFF0CE712A6A /* Pods-AaronPod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AaronPod_Tests-resources.sh"; sourceTree = "<group>"; };
+		BBC8B39EA2001B06A7423064871E6DAA /* 300@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "300@2x.png"; sourceTree = "<group>"; };
 		CA1F0A5A596713EEE05C949BC10D8AA2 /* Pods-AaronPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AaronPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CED33F3999C41508B841A338265CAEF9 /* 300@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "300@2x.png"; sourceTree = "<group>"; };
 		CF2496020E0A560BAFDBD1845BBA2783 /* AaronPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AaronPod-umbrella.h"; sourceTree = "<group>"; };
 		D5639E2F866EB39F1EE7BEFA6F02EA01 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7AF2192566F44134FF711C52B2A1343 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -119,6 +119,14 @@
 				2B5039C22E606826FA3BCD5CC0E66166 /* ReplaceMe.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		0A4710D3E15FCCABB0CF237E5FF50822 /* AaronPod */ = {
+			isa = PBXGroup;
+			children = (
+				D30F39377BF817A03CFE61CADAFE2E3D /* MediaResource */,
+			);
+			path = AaronPod;
 			sourceTree = "<group>";
 		};
 		0F929084278262BDA8D0CE75DD718E36 /* Pods-AaronPod_Example */ = {
@@ -188,14 +196,6 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		9E4C65E628784DCD62FAF8DC4B2EF9DF /* AaronPod */ = {
-			isa = PBXGroup;
-			children = (
-				EC0EB99A0AD0D57CF18630990647ED4E /* Assets */,
-			);
-			path = AaronPod;
-			sourceTree = "<group>";
-		};
 		B58ABDBF385B58C569F456BBBDA2C793 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,10 +239,19 @@
 			path = "Target Support Files/Pods-AaronPod_Tests";
 			sourceTree = "<group>";
 		};
+		D30F39377BF817A03CFE61CADAFE2E3D /* MediaResource */ = {
+			isa = PBXGroup;
+			children = (
+				58278230B376144F258DA28E0313A369 /* 300.png */,
+				BBC8B39EA2001B06A7423064871E6DAA /* 300@2x.png */,
+			);
+			path = MediaResource;
+			sourceTree = "<group>";
+		};
 		D63711C586D12F0FF3638B796ADE42BF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9E4C65E628784DCD62FAF8DC4B2EF9DF /* AaronPod */,
+				0A4710D3E15FCCABB0CF237E5FF50822 /* AaronPod */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -260,15 +269,6 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/AaronPod";
-			sourceTree = "<group>";
-		};
-		EC0EB99A0AD0D57CF18630990647ED4E /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				04BFFD403005F4D60281E06BB99847F9 /* 300.png */,
-				CED33F3999C41508B841A338265CAEF9 /* 300@2x.png */,
-			);
-			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
